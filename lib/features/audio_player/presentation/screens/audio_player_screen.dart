@@ -3,6 +3,8 @@ import 'package:file_picker/file_picker.dart';
 import 'package:audioplayers/audioplayers.dart';
 
 class AudioPlayerScreen extends StatefulWidget {
+  const AudioPlayerScreen({super.key});
+
   @override
   _AudioPlayerScreenState createState() => _AudioPlayerScreenState();
 }
